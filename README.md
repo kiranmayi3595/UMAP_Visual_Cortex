@@ -5,11 +5,17 @@ This repository contains a Jupyter notebook that performs clustering of primary 
 This notebook walks through a complete pipeline to:
 
 1.Load and filter neuron-level transcriptomic data from the Allen Mouse Whole Cortex + Hippocampus dataset
+
 2.Preprocess expression data (log normalization, HVG selection)
+
 3.Perform dimensionality reduction (PCA)
+
 4.Generate UMAP embeddings
+
 5.Cluster neurons using the Leiden algorithm
+
 6.dentify and visualize marker genes for each cluster
+
 
 🔬 Dataset
 The dataset used is:
