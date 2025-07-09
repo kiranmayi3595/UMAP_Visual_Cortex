@@ -1,7 +1,7 @@
-🧠 #UMAP Clustering of Neuron Types
+##🧠 UMAP Clustering of Neuron Types
 This repository contains a Jupyter notebook that performs clustering of primary visual cortex neurons using single-cell RNA-seq data from the Allen Institute. The goal is to visualize neuronal diversity and identify transcriptionally distinct neuron subtypes using unsupervised learning.
 
-📊 #Project Summary
+##📊 Project Summary
 This notebook walks through a complete pipeline to:
 
 1.Load and filter neuron-level transcriptomic data from the Allen Mouse Whole Cortex + Hippocampus dataset
