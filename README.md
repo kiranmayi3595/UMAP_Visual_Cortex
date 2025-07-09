@@ -1,25 +1,20 @@
-🧠 UMAP Clustering of Neuron Types
+🧠 #UMAP Clustering of Neuron Types
 This repository contains a Jupyter notebook that performs clustering of primary visual cortex neurons using single-cell RNA-seq data from the Allen Institute. The goal is to visualize neuronal diversity and identify transcriptionally distinct neuron subtypes using unsupervised learning.
 
-📊 Project Summary
+📊 #Project Summary
 This notebook walks through a complete pipeline to:
 
-Load and filter neuron-level transcriptomic data from the Allen Mouse Whole Cortex + Hippocampus dataset
-
-Preprocess expression data (log normalization, HVG selection)
-
-Perform dimensionality reduction (PCA)
-
-Generate UMAP embeddings
-
-Cluster neurons using the Leiden algorithm
-
-Identify and visualize marker genes for each cluster
+1.Load and filter neuron-level transcriptomic data from the Allen Mouse Whole Cortex + Hippocampus dataset
+2.Preprocess expression data (log normalization, HVG selection)
+3.Perform dimensionality reduction (PCA)
+4.Generate UMAP embeddings
+5.Cluster neurons using the Leiden algorithm
+6.dentify and visualize marker genes for each cluster
 
 🔬 Dataset
 The dataset used is:
 
-Mouse Whole Cortex + Hippocampus 10x Dataset from the Allen Brain Atlas
+Mouse Whole Cortex + Hippocampus 10x Dataset from the Allen Brain Atlas[https://portal.brain-map.org/atlases-and-data/rnaseq/mouse-whole-cortex-and-hippocampus-10x]
 
 We subset the data to ~29,000 neurons specifically from the Primary Visual Cortex (VISp).
 
